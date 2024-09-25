@@ -40,8 +40,7 @@ public class RequestController {
             case "divide":
                 if (num2==0)
                 {
-                    System.out.println("cannot divide by 0");
-                    break;
+                    return "cannot divide by 0";
                 }
                 total = num1/num2;
                 break;
